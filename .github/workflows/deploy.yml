@@ -7,10 +7,9 @@ on:
 
 jobs:
   build-and-deploy:
-    permissions:
-      actions: write
-
     runs-on: ubuntu-latest
+
+    permissions: write-all
 
     steps:
       # Get the source code
